@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="districts">Choose a district</string>
+    <string-array name="district_names">
+        <item>Select District</item>
+        <item>Umkhanyakude</item>
+        <item>Umzinyathi</item>
+        <item>Amajuba</item>
+        <item>Harry Gwala</item>
+        <item>Ilembe</item>
+        <item>Ethekwini Metro</item>
+        <item>King Cetswayo</item>
+    </string-array>
+</resources>

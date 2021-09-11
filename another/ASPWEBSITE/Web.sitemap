@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="Home"  description="Home">
+        <siteMapNode url="~/Default.aspx" title="Home"  description="Go to Home Page" />
+      
+        <siteMapNode url="~/Login.aspx" title="Login"  description="Login to this website" />
+    
+     <siteMapNode url="~/LadLordRegister.aspx" title="Land Lords register"  description="Land Lords register here" />
+    
+    <siteMapNode url="~/StudentRegister.aspx" title="Students Register" description="Students register here" />
+      
+     
+      
+      <siteMapNode url="~/Students/Default.aspx" title="Students" description="Students page" >
+        <siteMapNode url="~/Students/AppyForAcoomodation.aspx" title="Apply for accomodation" description="Apply for accomodation here" />
+      <siteMapNode url="~/Stundets/ViewAccomodation.aspx" title="View Accomodation" description="View accomodation here" />
+        </siteMapNode>
+    <siteMapNode url="~/LandLords/Default.aspx" title="LandLords" description="Land lords manage their accomodation here" >
+      <siteMapNode url="~/LandLords/ViewAccomdation.aspx" title="Manage Accomodation" description="Get our contact details here" />
+      </siteMapNode>
+       <siteMapNode url="~/AboutUs.aspx" title="About Us" description="Find more about us" />
+      
+      <siteMapNode url="~/ContactUs.aspx" title="Contact Us" description="Get our contact details here" />
+  
+    </siteMapNode>
+
+  
+
+ 
+
+</siteMap>

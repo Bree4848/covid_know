@@ -1,0 +1,38 @@
+body {width:960px; margin: auto; background-color:#D3D3D3; font-family:Trebuchet;}
+
+#header, #footers, #nav ,#mainContent {display:block}	 
+	 
+#header{width:960px;height: 100px; background-color:#CCC; text-align:center; margin:auto;
+			border:thin solid blue;background-image:url("CADElL.jpg");}	 
+	 
+#nav{height:8%; width:100%; background-color:4682B4;}
+#nav a {float:left;align:center;border-left: 1 px black solid; border-right: 1px black solid;}
+
+#mainContent{width:810px;margin-left:150px; border: thin solid black;}
+
+#StudentsContent {height:380px;border: thin solid black;background-color:#696969; float:right;width:400px;}
+
+h3 {font-size: large; font-weight:bold;font-color:#800000 border: thin solid blue;}
+
+#footer {clear:both; width: 960px; height: 50px; background-color:#1E90FF; text-align:center;clear:both}
+
+#sidebar {float:left; height:70%; width:150px; background-color:#A9A9A9;border: thin solid black;}
+#LandLordsContent1 {margin-left: 155px; background-color:#778899; height:380px;border: thin solid black;float:center;width:400px;}
+
+#nav a{padding: 2px 7px; margin:1px 1px; text-decoration:none;
+display:block; width:auto;position:relative;
+border-top:1px solid dimgray; border-bottom:4px solid maroon; }
+
+#nav a:link { color: black; background-color:grey;}
+#nav a:visited{ color:green;}
+#nav a:hover {color:maroon; backgroud-color:green; text- decoration: underline;}
+#nav a:active,a:focus {color:white; background-color:maroon;}
+
+h1 {background-color #ffffff;}
+a:link{color: maroon;} 
+a:hover{background-color: green;}
+p:first-letter{display:block;
+						float: left;
+						margin:3px;
+						color:#f00;
+						font-size:200%;}

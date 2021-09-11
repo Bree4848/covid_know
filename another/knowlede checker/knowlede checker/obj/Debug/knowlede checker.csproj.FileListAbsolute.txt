@@ -1,0 +1,9 @@
+E:\######MYPROJECTS\knowlede checker\knowlede checker\obj\Debug\knowlede_checker.Form1.resources
+E:\######MYPROJECTS\knowlede checker\knowlede checker\obj\Debug\knowlede_checker.Properties.Resources.resources
+E:\######MYPROJECTS\knowlede checker\knowlede checker\obj\Debug\knowlede checker.csproj.GenerateResource.Cache
+E:\######MYPROJECTS\knowlede checker\knowlede checker\bin\Debug\knowlede checker.exe.config
+E:\######MYPROJECTS\knowlede checker\knowlede checker\bin\Debug\knowlede checker.exe
+E:\######MYPROJECTS\knowlede checker\knowlede checker\bin\Debug\knowlede checker.pdb
+E:\######MYPROJECTS\knowlede checker\knowlede checker\obj\Debug\knowlede checker.exe
+E:\######MYPROJECTS\knowlede checker\knowlede checker\obj\Debug\knowlede checker.pdb
+E:\######MYPROJECTS\knowlede checker\knowlede checker\obj\Debug\knowlede checker.csprojResolveAssemblyReference.cache

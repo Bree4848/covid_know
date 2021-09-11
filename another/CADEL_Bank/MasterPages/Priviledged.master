@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Priviledged.master.cs" Inherits="MasterPages_Priviledged" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../CSS/priviledge.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="container">
+
+       <div id ="hdr">header</div>
+       <div id="navigation">
+           <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal"></asp:Menu>
+           <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+       </div>
+       <div id ="mainpanel">
+           <div id="leftcol">left column</div>
+           <div id="rightcol">right column</div>
+           <div id="midcol">
+                <div id ="subleft">left sube column</div>
+               <div id="subright">right sub column</div>
+            </div>
+
+       </div><br />
+    <div id="footer">footer goes here</div>
+   </div>
+    </form>
+</body>
+</html>

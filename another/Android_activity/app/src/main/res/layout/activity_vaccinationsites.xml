@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.myapplication.vaccinationSites">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        android:layout_gravity="center">
+
+        <TableRow>
+
+            <TextView android:layout_width="wrap_content"
+                android:width="100dp"
+                android:layout_height="wrap_content"
+                android:text="PROVINCE :"/>
+            <Spinner android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/province"
+                android:prompt="@string/provinces"/>
+
+
+
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="DISTRICT MUNICIPALITY:"/>
+
+            <Spinner android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/district"
+                android:prompt="@string/districts"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="LOCAL MUNICIPALITY :"/>
+
+            <Spinner android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/municipality"
+                android:prompt="@string/municipalities"/>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="WARD :"/>
+            <Spinner android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/ward"
+                android:prompt="@string/wards"/>
+
+        </TableRow>
+        <Button android:layout_height="wrap_content"
+            android:text="CHECK"
+            android:id="@+id/buttonCheck"
+            android:onClick="onClick"/>
+    </TableLayout>
+
+
+</LinearLayout>

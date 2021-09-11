@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FrontEnd.master.cs" Inherits="MasterPages_FrontEnd" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+    <header>
+        <h2>&nbsp;CADEL BANK - BANKING SHOULD BE THIS SIMPLE</h2>
+    </header>
+    <nav>
+        <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal" StaticEnableDefaultPopOutImage="False"></asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+    </nav>
+    <aside id="Sidebar">
+        Change Theme
+        <asp:DropDownList ID="ThemeList" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged" Height="16px" Width="123px">
+            <asp:ListItem>DARK BLUE</asp:ListItem>
+            <asp:ListItem>LIGHT BLUE</asp:ListItem>
+        </asp:DropDownList>
+            
+        </aside>
+    <main>
+
+        <asp:ContentPlaceHolder ID="cpMainContent" runat="server">
+
+        </asp:ContentPlaceHolder>
+         
+    </main>
+    <nav class="footer-nav"> 
+            <a class="footer-nav" href="aboutus.aspx">About us</a>
+            <a class="footer-nav" href="contactus.aspx">Contact us</a>
+            <a class="footer-nav" href="privatepolicy.aspx">Private Policy</a>
+    </nav>
+    </form>
+</body>
+</html>

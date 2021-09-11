@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Student.master.cs" Inherits="masterpages_Student" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Students</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/StudentsStyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="StudentPageWrapper">
+
+        <div id="StudentHeader">
+            Heade goes here
+        </div>
+
+        <div id ="StudentMenuWraaper">Menu goes here</div>
+
+        <div id ="StudentMainContent">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="StudentSideBar">Sidebar goes here</div>
+        <div id ="StudentFooter">footer goes here</div>
+    </div>
+    </form>
+</body>
+</html>

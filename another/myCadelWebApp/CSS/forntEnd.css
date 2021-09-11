@@ -1,0 +1,101 @@
+﻿body {background:linear-gradient(53deg,#ccfffc,#ffcccf);
+margin:auto;
+width:910px;}
+
+h3 {color:red}
+
+.myHead {width:900px;
+			height:200px;
+			box-shadow:0 0 15px 5px rgba(44,82,100,.75);
+            border:3px double green;
+            background-image:url('images/myBackroound.jpg');
+}
+
+#welcome_note{border:3px double green;
+              width: 900px;
+              height:150px;
+}
+
+#maincontent{background-color:#E6E6FA;
+			margin:auto;
+			width:900px;
+			height:auto;
+			box-shadow:0 0 15px 5px rgba(44,82,100,.75);
+			overflow:scroll;
+			}
+			
+header{border: 4px double black;
+       margin-top:3px;
+	   height:154px;
+	   background:url("PORTFOLIO.jpg");
+	   width:900px;}
+	   
+nav{font-size:1rem; padding: 0.5rem; display:flex; justify-content:space-around;border:3px double green;}
+
+.mySlideShow{ margin:50px auto;
+			 width:500px;
+			 height:150px;
+			 overflow:hidden;
+			 border:10px solid;
+			 position:relative;}
+.mySLides{position:absolute;
+		  animation: round 16s infinite;
+		  opacity:0;}
+		  
+@keyframes round{25% {
+opacity:1;}
+40%{opacity:0;}
+}
+-webkit-@keyframes round{
+	25%{
+		opacity:1;
+		-webkit-opacity:1;
+	}
+	40%{
+		opacity:0;
+		-webkit-opacity:0;
+	}
+}
+
+nav a{ margin:0 5px;
+   padding: 5px 15px;
+   border-radius:3px 3px 0 0;
+   background-color:transparent;
+   text-decoration:none;
+   color:green;
+   transition: color 200ms ease-in 50ms;
+   box-shadow: -4px -6px 8px 2px rgba(0,0,0,.5), 8px 6px 12px rgba(0,0,0,.5);}
+
+a:hover{background-color:black;
+		color:white;
+		transition: color 200ms ease-out 50ms;}
+a:active{background-color:black;
+		color:white}
+		
+		
+/*I used flex box here */		
+.container1-flex, .container2-flex{display:flex;}
+.item{flex:1 1 250px;
+	  margin:10px;
+	  border-radius:5px;
+	  padding:10px 10px 0 10px;
+	  background:linear-gradient(53deg, #ccfffc, #ffcccf);
+	  flex-flow: column;}
+.item:hover{transform: scale(1.0);
+box-shadow: -4px -6px 8px 2px rgba(0,0,0,.5), 8px 6px 12px rgba(0,0,0,.5);}
+
+
+
+#myContainer12{display:flex;
+				background-color:#192F01;}
+
+#picSlide{
+		  border:3px double green;
+		  background-color:#e9d6d6;
+		  border-radius:0px;
+		  width: 100%;
+          height:auto;
+          box-shadow:0 0 15px 5px rgba(44,82,100,.75);
+		 }
+#footer-legal{border:3px double green;
+       text-align:center;}

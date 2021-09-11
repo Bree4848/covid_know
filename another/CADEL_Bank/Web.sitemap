@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/" title="HOME"  description="HOME">
+        <siteMapNode url="~/Default.aspx" title="HOME"  description="HOME PAGE" />
+      
+        <siteMapNode url="~/CLients/Default.aspx" title="CLIENTS"  description="CLients go to this page" >
+          <siteMapNode url="~/CLients/Investments.aspx" title="INVESTMENTS"  description="Investments page this" />
+          <siteMapNode url="~/CLients/myAccounts.aspx" title="ACCOUNTS"  description="Accounts page this" />
+          <siteMapNode url="~/CLients/loans.aspx" title="LOANS"  description="Loans page this" />
+        </siteMapNode>
+      
+        <siteMapNode url="~/Administrators/Default.aspx" title="ADMINISTRATION" description="Administers go here">
+          <siteMapNode url="~/Administrators/administer.aspx" title="MANAGE USERS"  description="admin manage workers here"/>      
+          <siteMapNode url="~/Administrators/ManageApp.aspx" title="MANAGE DATA"  description="admin manage user data here"/>
+        </siteMapNode>
+        
+        <siteMapNode url="~/Login.aspx" title="LOGIN" description="login to this app"/>    
+        <siteMapNode url="~/Register.aspx" title="REGISTER" description="Register to this app"/> 
+        
+        <siteMapNode url="~/AboutUS/Default.aspx" title="ABOUT"  description="About us" >
+          <siteMapNode url="~/AboutUs/AboutUs.aspx" title="ABOUT US"  description="Info about us" />
+          <siteMapNode url="~/AboutUs/ContactUs.aspx" title="CONTACT US"  description="Contact us using this info" />
+        </siteMapNode>
+      
+        <siteMapNode url="~/Staff/Default.aspx" title="STAFF"  description="bank workers" >
+          <siteMapNode url="~/Staff/Staff.aspx" title="STAFF"  description="Investments page this" />
+        </siteMapNode>
+  
+    </siteMapNode>
+
+    
+</siteMap>

@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FrontEnd.master.cs" Inherits="MsterPages_FrontEnd" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../CSS/forntEnd.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+
+     <div class ="myHead">
+        <img src="../images/myBackgrooud.jpg" height ="200px" width="900px" />
+    </div>
+    
+     <nav> <a href="default.html">HOME</a><a href="qualifications.html">QUALIFICATIONS</a><a href="jobexperience.html">JOB EXPERIENCE</a><a href="socials.html">SOCIALS</a><a href="personalprojects.html">LINKS</a><a href= "navigation">FRAMEWORKS</a></nav>
+
+
+    
+    <div id="maincontent">
+            <div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+    <div class="container1-flex">
+			<span class="item SeeSharp"><img src ="../images/csharp.png" width="100px"/><p> C# - I have developed destop and web programs from first year using Microsoft Visual Studio. One of those programs is student Accomodation</p></span>
+			
+			<span class="item asQueEl"><img src ="../images/sql.png" width="100px"/><p>SQL - I SQL skills are clinical. I have knowledge in Normalisations, stored procedues, triggers, functions and other important database technologies.</p></span>
+			
+			<span class="item JavaScript"><img src ="../images/javascript.png" width="100px"/><p>I am still finding my foot in brushing this very useful yet tricky language JavaScript and my journey so far is very promising. I am bale to write code that is reactive</p></span>
+		</div>
+		
+		<div class="container2-flex">
+			<span class="item aspnet"><img src ="../images/asp.png" width="100px"/><p>ASP.NET I still continue building website using ASP.NET. I have a website which i named CADEL bank built in ASP.NET and C#. I am still learning MVC</p></span>
+			
+			<span class="item htlmandCss"><img src ="../images/html.png" width="100px"/><p>HTML and CSS - HTML 5 and CSS 3 are the things to consider and i am paying a very much great attention to them currently. </p></span>
+			
+			<span class="item adroid-programming"><img src ="../images/android.png" width="100px"/><p>AndroidProgramming - i have developed adroid apps in JAva and i can go as long as i can be</p></span>
+		</div>
+    </div>
+
+    <footer>
+        <div id="footer-legal">All Right Reserved</div>
+
+
+    </footer>
+    </form>
+</body>
+</html>

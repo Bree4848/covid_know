@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="municipalities">Choose a municipality</string>
+    <string-array name="municipality_names">
+        <item>Select Municipality</item>
+        <item>Endumeni</item>
+        <item>Umsinga</item>
+        <item>Umvoti</item>
+        <item>Nquthu</item>
+    </string-array>
+</resources>
