@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.HandlerThread
+import android.widget.ImageView
 import android.widget.RelativeLayout
+import android.widget.TextView
 
 class SplashScreen : AppCompatActivity()
 {

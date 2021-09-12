@@ -8,9 +8,10 @@
     tools:context=".SplashScreen">
     <TextView
         android:layout_width="wrap_content"
+        android:id="@+id/welcomeText"
         android:layout_height="wrap_content"
         android:text="WELCOME TO COVID_KNOW"
-        android:textSize="30dp"
+        android:textSize="27sp"
         android:layout_above="@+id/splashImage"/>
 
     <ImageView
