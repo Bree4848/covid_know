@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722912568487",
+    "project_id": "covidknow-9066c",
+    "storage_bucket": "covidknow-9066c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722912568487:android:46df4801ae18739d60e782",
+        "android_client_info": {
+          "package_name": "com.pekeyake.covid_know"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722912568487-l7p06ihj068f4kklsr65afi9rm2u21t5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Y2V8kIzEB16JCX6Lhuo9swB9SQNEvO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722912568487-l7p06ihj068f4kklsr65afi9rm2u21t5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
