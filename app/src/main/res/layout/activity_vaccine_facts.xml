@@ -13,5 +13,16 @@
         android:textColor="@color/myColorGreen"
         android:textSize="27sp" />
 
+    <ImageView
+        android:id="@+id/shareImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SHARE" />
+
 
 </LinearLayout>

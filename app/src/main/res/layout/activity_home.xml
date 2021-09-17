@@ -98,23 +98,27 @@
             app:layout_constraintVertical_bias="0.0" />
 
 
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/adView"
-            android:layout_width="404dp"
-            android:layout_height="95dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="556dp"
-            app:adSize="BANNER"
-            app:adUnitId="ca-app-pub-8834370574909133/6966808653"
-            app:layout_constraintTop_toTopOf="@+id/imageView"
-            tools:layout_editor_absoluteX="2dp"></com.google.android.gms.ads.AdView>
-
         <androidx.constraintlayout.widget.Barrier
             android:id="@+id/barrier2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:barrierDirection="left" />
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="409dp"
+            android:layout_height="94dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="556dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-8834370574909133/6966808653"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.0"></com.google.android.gms.ads.AdView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

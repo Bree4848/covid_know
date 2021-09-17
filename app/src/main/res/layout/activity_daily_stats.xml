@@ -30,9 +30,5 @@
         android:layout_height="wrap_content"
         android:text="BACK" />
 
-    <Button
-        android:id="@+id/share"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SHARE" />
+
 </LinearLayout>
