@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="494dp"
         android:id="@+id/splashImage"
-        android:src="@drawable/covidknow2"
+        android:src="@drawable/covid_knoww"
         android:layout_centerInParent="true"/>
 
 </RelativeLayout>

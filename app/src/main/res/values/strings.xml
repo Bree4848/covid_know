@@ -14,7 +14,10 @@
     <string name="open">open</string>
     <string name="close">close</string>
     <string name="lets_save_lives">LETS SAVE LIVES</string>
-    <string name="daily_stats">DAILY STATISTICS></string>
+    <string name="daily_stats">DAILY STATISTICS</string>
     <string name="vaccine_sites">VACCINATION SITES</string>
     <string name="covid_news">COVID-19 NEWS</string>
+    <string name="title_activity_websie_detail_host">websie Detail Host Activity</string>
+    <string name="title_websie_list">websites</string>
+    <string name="title_websie_detail">websie Detail</string>
 </resources>

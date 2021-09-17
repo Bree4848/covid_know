@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Covid_know">
-
+        <activity
+            android:name=".websieDetailHostActivity"
+            android:label="@string/title_activity_websie_detail_host"></activity>
         <activity android:name=".VaccineFacts">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +26,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".CovidNews">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
